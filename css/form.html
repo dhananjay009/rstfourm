@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register | ShopEase</title>
+  <!-- <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f7f8fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .wrapper {
+      display: flex;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 10px 35px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 90%;
+      max-width: 950px;
+    }
+
+    .left-side {
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+      color: white;
+      padding: 50px 30px;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left-side h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+
+    .left-side p {
+      font-size: 15px;
+      color: #f1f1f1;
+      text-align: center;
+      max-width: 250px;
+      line-height: 1.5;
+    }
+
+    .right-side {
+      padding: 40px 50px;
+      width: 60%;
+    }
+
+    .right-side h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #555;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 15px;
+      outline: none;
+      transition: all 0.3s ease;
+    }
+
+    input:focus, select:focus {
+      border-color: #2575fc;
+      box-shadow: 0 0 6px rgba(37, 117, 252, 0.3);
+    }
+
+    button {
+      width: 100%;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: transform 0.2s, background 0.3s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
+    }
+
+    .login-link {
+      text-align: center;
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .login-link a {
+      color: #2575fc;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .login-link a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+      }
+      .left-side {
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+      }
+      .right-side {
+        width: 100%;
+        padding: 30px;
+      }
+    }
+  </style> -->
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="left-side">
+      <h1>ShopEase 🛍️</h1>
+      <p>Join our shopping family and enjoy exclusive offers, fast checkout, and more!</p>
+    </div>
+
+    <div class="right-side">
+      <h2>Create Your Account</h2>
+      <form action="#" method="post" enctype="multipart/form-data">
+
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Mobile Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required />
+        </div>
+
+        <div class="form-group">
+          <label for="address">Shipping Address</label>
+          <textarea id="address" name="address" rows="2" placeholder="Enter your address" required></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="country">Country</label>
+          <select id="country" name="country" required>
+            <option value="">-- Select Country --</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>United Kingdom</option>
+            <option>Canada</option>
+            <option>Australia</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="password">Create Password</label>
+          <input type="password" id="password" name="password" placeholder="Enter password" required />
+        </div>
+
+        <div class="form-group">
+          <label for="confirm-password">Confirm Password</label>
+          <input type="password" id="confirm-password" name="confirm-password" placeholder="Re-enter password" required />
+        </div>
+
+        <button type="submit">Register</button>
+
+        <div class="login-link">
+          Already have an account? <a href="#">Login here</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>

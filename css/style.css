@@ -1,0 +1,23 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+body{
+    h1{
+        color: blue;
+        border: 5px sold red;
+    }
+
+    p{
+        font-weight: bold;
+    }
+}
+
+.divtg{
+    border: 5px solid red;
+}
+
+.divtg .spantg{
+     border:5px dotted rgba(21, 6, 228, 0.541);
+}
